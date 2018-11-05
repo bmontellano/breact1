@@ -1,11 +1,12 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-require('index.css');
-//state
+require('./index.css');
+
+//state 
 //lifecycle events
 //UI
 
-class App extends React.Component (
+class App extends React.Component {
     render() {
         return (
             <div>
@@ -13,7 +14,7 @@ class App extends React.Component (
             </div>
         )
     }
-)
+}
 
 
 ReactDOM.render(
