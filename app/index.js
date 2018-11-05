@@ -10,7 +10,12 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                Hello Suckas!!!
+               <h1>
+                    Hello Suckas!!!
+               </h1>
+               <p>
+                   Random P Taggggg
+               </p>
             </div>
         )
     }
